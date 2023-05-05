@@ -1,0 +1,164 @@
+body {
+
+
+    font-family: 'Indie Flower', cursive;
+    background-color: #F2C9C9;
+    color: #242424;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #2F736C;
+    border-radius: 0;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #F29E38;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #243CBF;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #F29E38;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-title {
+    color: #F24130;
+    text-align: center;
+}
+
+h5{
+    color: #F24130;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.card:hover {
+    border-color: #243CBF;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+    border-radius: 20px;
+
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+p2 {
+    font-size: 15px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+p3 {
+    color: #243CBF;
+    text-align: center;
+    font-size: 50px;
+}
+p4 {
+    color: #2F736C;
+    text-align: center;
+    font-size: 50px;
+}
+p5 {
+    color: #F29E38;
+    text-align: center;
+    font-size: 50px;
+}
+p6 {
+    color: #F24130;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    font-size: 18px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+a {
+    color: #2F736C;
+}
+
+
+
+
+a:hover {
+    color: #F24130;
+}
+
+.container{
+    padding:25px 0;
+}
+
+
